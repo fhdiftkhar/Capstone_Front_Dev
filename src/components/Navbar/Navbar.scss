@@ -1,0 +1,37 @@
+@import '../../variables';
+
+nav {
+    padding: 15px;
+}
+
+nav .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: $green;
+}
+
+nav a:hover {
+    color: $dark;
+}
+
+nav ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:not(:last-of-type){
+    margin-right: 25px;
+}
+
+nav img{
+    max-height: 40px;
+}
